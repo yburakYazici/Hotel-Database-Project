@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI.Calisan">
+  <grid id="27dc6" binding="calisanpanel" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="722" height="400"/>
+    </constraints>
+    <properties>
+      <toolTipText value="User Panel"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="35b12" class="javax.swing.JButton" binding="odaListeleButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Oda Listele"/>
+        </properties>
+      </component>
+      <component id="35ddc" class="javax.swing.JButton" binding="odaGüncelleButton">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Oda Güncelle"/>
+        </properties>
+      </component>
+      <component id="f0f4c" class="javax.swing.JButton" binding="marketSatışButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Market Satış"/>
+        </properties>
+      </component>
+      <component id="eb4c9" class="javax.swing.JButton" binding="marketListeleButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Market Listele"/>
+        </properties>
+      </component>
+      <component id="ba1a2" class="javax.swing.JButton" binding="stokGüncelleButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Stok Güncelle"/>
+        </properties>
+      </component>
+      <component id="f2b37" class="javax.swing.JButton" binding="müşteriEkleButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Müşteri Ekle"/>
+        </properties>
+      </component>
+      <component id="336cb" class="javax.swing.JButton" binding="müşteriSilButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Müşteri Sil"/>
+        </properties>
+      </component>
+      <vspacer id="c553a">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="939a7" class="javax.swing.JButton" binding="müşteriListeleButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Müşteri Listele"/>
+        </properties>
+      </component>
+      <component id="38eec" class="javax.swing.JButton" binding="müşteriGüncelleButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Müşteri Güncelle"/>
+        </properties>
+      </component>
+      <component id="a6605" class="javax.swing.JButton" binding="etkinlikGüncelleButton">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Etkinlik Güncelle"/>
+        </properties>
+      </component>
+      <component id="5b9a7" class="javax.swing.JButton" binding="etkinlikEkleButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Etkinlik Ekle"/>
+        </properties>
+      </component>
+      <component id="c3815" class="javax.swing.JButton" binding="etkinlikSilButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Etkinlik Sil"/>
+        </properties>
+      </component>
+      <component id="c27cb" class="javax.swing.JButton" binding="etkinlikListeleButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Etkinlik Listele"/>
+        </properties>
+      </component>
+      <component id="c86fa" class="javax.swing.JButton" binding="organizasyonGüncelleButton">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Organizasyon Güncelle"/>
+        </properties>
+      </component>
+      <component id="c2960" class="javax.swing.JButton" binding="organizasyonEkleButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Organizasyon Ekle"/>
+        </properties>
+      </component>
+      <component id="2cf33" class="javax.swing.JButton" binding="organizasyonSilButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Organizasyon Sil"/>
+        </properties>
+      </component>
+      <component id="5db3d" class="javax.swing.JButton" binding="organizasyonListeleButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Organizasyon Listele"/>
+        </properties>
+      </component>
+      <component id="dded3" class="javax.swing.JButton" binding="rezervasyonEkleButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rezervasyon Ekle"/>
+        </properties>
+      </component>
+      <component id="ec2e4" class="javax.swing.JButton" binding="rezervasyonSilButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rezervasyon Sil"/>
+        </properties>
+      </component>
+      <component id="80959" class="javax.swing.JButton" binding="rezervasyonListeleButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rezervasyon Listele"/>
+        </properties>
+      </component>
+      <component id="ce180" class="javax.swing.JButton" binding="rezervasyonGüncelleButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rezervasyon Güncelle"/>
+        </properties>
+      </component>
+      <component id="5b27d" class="javax.swing.JButton" binding="giriseDonButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Giriş Ekranına Dön"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
